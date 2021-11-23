@@ -1,0 +1,8 @@
+---
+- name: Dow
+  hosts: all
+  tasks:
+    - name: Doooo
+      yum:
+        name: httpd
+        state: installed
