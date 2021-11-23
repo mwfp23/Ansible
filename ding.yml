@@ -1,8 +1,8 @@
 ---
-- name: Dow
+- name: My Playbook
   hosts: all
   tasks:
-    - name: Doooo
+    - name: Installing httpg
       yum:
         name: httpd
         state: installed
