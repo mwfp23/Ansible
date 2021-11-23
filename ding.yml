@@ -1,8 +1,9 @@
 ---
-- name: First Playbook
-  hosts: testing
+- name: My Playbook
+  hosts: all
   tasks:
-    - name: installing httpd
+    - name: Installing httpg
       yum:
         name: httpd
-        state: present
+        state: installed
+#        adding stuff
