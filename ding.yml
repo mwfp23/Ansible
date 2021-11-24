@@ -1,8 +1,8 @@
 ---
-- name: First Playbook
-  hosts: testing
+- name: Dow
+  hosts: 192.168.1.183
   tasks:
-    - name: installing httpd
+    - name: Doooo
       yum:
         name: httpd
-        state: present
+        state: installed
