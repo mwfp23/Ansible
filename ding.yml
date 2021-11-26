@@ -6,5 +6,4 @@
       yum:
         name: httpd
         state: installed
-#nbmnbmnm, 
-#,djgn
+#nbmnbmnm,
